@@ -1,0 +1,12 @@
+"""Fixed protocol and invariants for the audited 617-tower study population."""
+
+TOWER_COUNT = 617
+FIRST_OBSERVED_YEAR = 2020
+TEST_YEAR = 2025
+DEVELOPMENT_END_YEAR = TEST_YEAR - 1
+TARGET_YEARS = tuple(range(FIRST_OBSERVED_YEAR + 1, TEST_YEAR + 1))
+SELECTION_FOLDS = (
+    ((2021, 2022), 2023),
+    ((2021, 2022, 2023), 2024),
+)
+COUNT_DENSITY_DIVISOR = 3.1273

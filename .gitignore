@@ -1,0 +1,18 @@
+# All source workbooks and generated analysis outputs stay local.
+/data/
+/outputs/
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.joblib
+*.pkl
+
+# Python and notebook environments/caches.
+/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
