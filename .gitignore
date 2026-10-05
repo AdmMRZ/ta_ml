@@ -1,6 +1,7 @@
 # All source workbooks and generated analysis outputs stay local.
 /data/
 /outputs/
+/TA_Amir/
 *.xlsx
 *.xls
 *.csv

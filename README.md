@@ -3,6 +3,8 @@
 Repo ini berisi **kode dan notebook tanpa data** untuk cleaning, analisis, dan evaluasi
 prediksi `Count` petir tahunan pada 617 tower. `Count` adalah observasi petir di area
 sekitar tower, bukan sambaran langsung ke struktur dan bukan jumlah gangguan PLN.
+Workbook sumber dan folder naskah `TA_Amir/` boleh berada di folder kerja lokal repo ini,
+tetapi keduanya diabaikan Git dan tidak diunggah ke GitHub.
 Notebook utama ada di [`notebooks/01_analisis.ipynb`](notebooks/01_analisis.ipynb):
 termasuk section tersendiri untuk **Cleaning dan Validasi Data**. Logika cleaning
 dan model ada di `src/ta_ml/` agar notebook tetap singkat dan bisa dijalankan ulang.
