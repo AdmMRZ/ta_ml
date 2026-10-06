@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "ta-ml"
 version = "0.1.0"
 description = "Reproducible cleaning, feature engineering, and evaluation for tower lightning counts"
-readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
   "numpy==2.5.3",
